@@ -55,7 +55,7 @@
 
     {!! htmlScriptTagJsApi() !!}
     @include('external.analytics')
-    @include('external.adsenses')
+    {{--  @include('external.adsenses')  --}}
 </head>
 <body class="@yield('body')">
 <div class="wrapper">

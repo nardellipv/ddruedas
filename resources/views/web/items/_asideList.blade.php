@@ -114,7 +114,7 @@
                 </div>
             </form>
         </div>
-        <div class="widget woocommerce widget_shopping_cart">
+        {{--  <div class="widget woocommerce widget_shopping_cart">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- DedosItemsListado -->
             <ins class="adsbygoogle"
@@ -127,5 +127,5 @@
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
-    </div>
+    </div>  --}}
 </aside>

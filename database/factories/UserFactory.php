@@ -22,6 +22,7 @@ $factory->define(User::class, function (Faker $faker) {
         'lastname' => $faker->lastName,
         'phone' => rand(1000000, 9999999),
         'phoneWsp' => $faker->boolean,
+        'type' => 'Client',
         'email' => $faker->unique()->safeEmail,
         'email_verified_at' => now(),
         'password' => bcrypt('123'),

@@ -22,8 +22,7 @@
 
                                 @include('alerts.error')
 
-                                <form action="{{ route('profile.updateProfile', $profile) }}" method="POST"
-                                      enctype="multipart/form-data">
+                                <form action="{{ route('profile.updateProfile', $profile) }}" method="POST">
                                     @csrf
                                     <input name="_method" type="hidden" value="PUT">
                                     {{--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

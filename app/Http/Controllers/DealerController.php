@@ -11,7 +11,7 @@ class DealerController extends Controller
 {
     public function index()
     {
-        $dealers = Dealer::with(['user'])
+        $dealers = Dealer::with(['user', 'user.province', 'user.region'])
             ->paginate(7);
 
         $provinces = Province::all();

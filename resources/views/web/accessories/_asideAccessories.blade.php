@@ -24,7 +24,7 @@
             @endforeach
         </ul>
     </div>
-    <div class="widget woocommerce widget_shopping_cart">
+    {{--  <div class="widget woocommerce widget_shopping_cart">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- DeDosAccessoryList -->
         <ins class="adsbygoogle"
@@ -36,5 +36,5 @@
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-    </div>
+    </div>  --}}
 </aside>

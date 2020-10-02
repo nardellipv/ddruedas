@@ -16,8 +16,8 @@
                             <li><a href="{{ url('/') }}">Home</a></li>
                             <li><a href="{{ route('item.index') }}">Listado</a></li>
                             <li><a href="{{ route('accessory.index') }}">Accesorios</a></li>
-                            <li><a href="{{ route('dealer.index') }}">Agencias</a></li>
-                            <li><a href="{{ route('dealer.index') }}">Oficios</a></li>
+                             <li><a href="{{ route('dealer.index') }}">Agencias</a></li>
+                            <li><a href="{{ route('dealer.index') }}">Oficios</a></li> 
                             {{--  <li><a href="{{ route('blog.index') }}">Noticias</a></li>  --}}
                             <li><a href="{{ route('contact') }}">Contacto</a></li>
                             {{--  <li class="cs-user-option">

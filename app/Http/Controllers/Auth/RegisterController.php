@@ -95,6 +95,7 @@ class RegisterController extends Controller
             'lastname' => $data['lastname'],
             'phone' => $data['phone'],
             'phoneWsp' => $wsp,
+            'type' => 'User',
             'email' => $data['email'],
             'province_id' => $data['province'],
             'region_id' => $data['region'],

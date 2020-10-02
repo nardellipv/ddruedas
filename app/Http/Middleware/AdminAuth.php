@@ -9,7 +9,7 @@ class AdminAuth
 {
     public function handle($request, Closure $next)
     {
-        if (Auth::user()->id === 1) {
+        if (Auth::user()->type === 'Admin') {
             return $next($request);
         }
 

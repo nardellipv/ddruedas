@@ -126,7 +126,7 @@
         </div>
     @endif
 
-    <div class="auto-detail-filter">
+    {{--  <div class="auto-detail-filter">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- DedosItemDetalle -->
         <ins class="adsbygoogle"
@@ -138,5 +138,5 @@
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-    </div>
+    </div>  --}}
 </aside>

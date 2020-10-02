@@ -94,6 +94,8 @@ Route::group(['prefix' => 'usuario', 'namespace' => 'User', 'middleware' => 'aut
     Route::get('/favorito', 'FavoriteController@index')->name('favorite.index');
     Route::get('/favorito/agregar/{id}', 'FavoriteController@addFavorite')->name('favorite.addFavorite');
     Route::get('/favorito/eliminar/{id}', 'FavoriteController@deleteFavorite')->name('favorite.deleteFavorite');
+
+    Route::get('/registrar', 'RegisterDealerController@dealerRegister')->name('register.dealer');
 });
 
 //Admin

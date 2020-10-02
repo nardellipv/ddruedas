@@ -12,7 +12,7 @@
             @endforeach
         </ul>
     </div>
-    <div class="widget widget-tags">
+    {{--  <div class="widget widget-tags">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- DeDosListBlog -->
         <ins class="adsbygoogle"
@@ -24,5 +24,5 @@
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-    </div>
+    </div>  --}}
 </aside>
